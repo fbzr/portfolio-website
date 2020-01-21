@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("https://images.unsplash.com/photo-1497996377197-e4b9024658a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1615,6 +1615,8 @@ input, select, textarea {
 				#main article .skill img {
 					width: 100px;
 				}
+
+				
 
 		@media screen and (max-width: 736px) {
 
