@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1594,6 +1597,23 @@ input, select, textarea {
 
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
+				}
+				
+				#main #skills .skillsContainer {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-evenly;
+				}
+
+				#main #skills .skillsContainer .skill {
+					width: 22%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				#main article .skill img {
+					width: 100px;
 				}
 
 		@media screen and (max-width: 736px) {
