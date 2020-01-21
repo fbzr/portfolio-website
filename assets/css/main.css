@@ -1616,6 +1616,18 @@ input, select, textarea {
 					width: 100px;
 				}
 
+				.work {
+					transition: transform 150ms;
+				}
+
+				.work:hover {
+					transform: scale(1.02);
+				}
+
+				.work .image:before {
+					background-color: rgba(19, 21, 25, 0.1);
+				}
+
 				
 
 		@media screen and (max-width: 736px) {
